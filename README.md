@@ -8,7 +8,7 @@ Repo con tutoriales de Dart
 https://codea.app/flutter/animacion-wave-en-flutter
 
 ### Do
-- Min 18:56 : https://www.youtube.com/watch?v=kDLYMpQNa2Y&list=PLVkLWeTR-wVyZy_xhlWRyXEP9kttRhVKD&index=4 
+- Min 0: https://www.youtube.com/watch?v=-bOzVBtrPA0&list=PLVkLWeTR-wVyZy_xhlWRyXEP9kttRhVKD&index=8 
 
 ### Did: 
 - https://www.youtube.com/playlist?list=PLCKuOXG0bPi2FqKxXIX7XnFriJmZnsKOE
