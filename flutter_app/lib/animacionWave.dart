@@ -23,15 +23,23 @@ class _AnimacionWaveState extends State<AnimacionWave> {
     return new Scaffold(
       backgroundColor: Colors.indigo,
       body: Container(
+        decoration: new BoxDecoration(
+          gradient: LinearGradient(colors: [Colors.indigo, Colors.lightBlue],
+          stops: [0.5, 1.0],
+          begin:FractionalOffset.topRight,
+          end: FractionalOffset.bottomLeft,
+          ),
+          
+        ),
           child: Column(
         children: <Widget>[
           new Stack(
             children: <Widget>[
               new ColorCurveBody(size: size, xOffset: 10, yOffset: -100),
               new ColorCurveBody(
-                  size: size, xOffset: 10, yOffset: 195, color: Colors.green),
+                  size: size, xOffset: 10, yOffset: 195, color: Colors.white54),
               new ColorCurveBody(
-                  size: size, xOffset: 10, yOffset: 209, color: Colors.white),
+                  size: size, xOffset: 10, yOffset: 200, color: Colors.green),
               new ColorCurveBody(
                   size: size, xOffset: 10, yOffset: 215, color: Colors.indigo),
               new Positioned(
